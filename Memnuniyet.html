@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="memnuniyet.css" />
+    <title>Müşteri Memnuniyeti</title>
+    <style>
+        body {
+            background-color: #222222;
+            font-family: sans-serif;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            width: 100%;
+            margin: 0 auto;
+
+        }
+
+        ul li {
+            display: inline-block;
+            width: 210px;
+            height: 50px;
+
+            line-height: 50px;
+            text-align: center;
+            text-transform: uppercase;
+
+
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: rgb(134, 129, 129);
+        }
+
+        ul li a:hover {
+            color: rgb(61, 61, 61);
+        }
+    </style>
+
+    </div>
+</body>
+
+<ul>
+    <li><a href="Anasayfa.html">Anasayfa</a></li>
+    <li><a href="Hakkımızda.html">Hakkımızda</a></li>
+    <li><a href="Çalışmalar.html">Çalışmalar</a></li>
+    <li><a href="Haber">Haber</a></li>
+    <li><a href="Memnuniyet.html">Memnuniyet</a></li>
+    <li><a href="Ekip.html">Ekip</a></li>
+    <li><a href="İletişim.html">İletişim</a></li>
+</ul>
+
+
+</head>
+<p><b>MÜŞTERİ MEMNUNİYETİ ANKETİ</b></p>
+<form action="/action_page.php">
+    <table>
+        <th>Adı Soyadı</th>
+        <th><input type="text" id="Adı Soyadı" name="Adı Soyadı" value=""><br></th>
+
+
+</form>
+
+<th>TC Kimlik Numaras</td>
+<td><input type="text" name="tc" id="tc" maxlength="11"></th>
+
+    <form>
+<th>Doğum Tarihi</th>
+<th><input type="date" name="yas"></th>
+</form>
+<th>Cinsiyet</th>
+<th> <input list="Cinsiyet"></th>
+<datalist id="cinsiyet">
+    <option value="Kadın">
+    <option value="Erkek">
+</datalist>
+</form>
+</table>
+
+<form>
+    <table><br>
+        <tr>
+            <th>Memnuniyet Değerlendirme Soruları</th>
+            <th>EVET</th>
+            <th>BİRAZ</th>
+            <th>HAYIR</th>
+        </tr>
+
+        <tr>
+            <td>Çalışanlarımızın size karşı tutum ve davranışı iyi miydi?</td>
+            <td> <input type="radio" id="1" name="1" value="1">
+                <label for="1">1</label><br>
+            </td>
+
+            <td> <input type="radio" id="1" name="1" value="2">
+                <label for="2">2</label><br>
+            </td>
+
+            <td> <input type="radio" id="1" name="1" value="3">
+                <label for="3">3</label><br>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Talep ettiğiniz hizmetin gerçekleşme süresi yeterli miydi?</td>
+           
+            <td> <input type="radio" id="3" name="2" value="1">
+                <label for="1">1</label><br>
+            </td>
+            <td> <input type="radio" id="3" name="2" value="2">
+                <label for="2">2</label><br>
+            </td>
+            <td> <input type="radio" id="3" name="2" value="3">
+                <label for="3">3</label><br>
+            </tr>
+        <td>Sunulan hizmetle ilgili olarak gerektiğinde çalışana ulaşabilme durumu yeterli mi?</td>
+        <td> <input type="radio" id="3" name="3" value="1">
+            <label for="1">1</label><br>
+        </td>
+        <td> <input type="radio" id="3" name="3" value="2">
+            <label for="2">2</label><br>
+        </td>
+        <td> <input type="radio" id="3" name="3" value="3">
+            <label for="3">3</label><br>
+        </tr>
+
+        <tr>
+            <td>Aldığınız hizmet ile ilgili soru, talep ve şikayetlerinize gösterilen ilgi yeterli mi?</td>
+            <td> <input type="radio" id="4" name="4" value="1">
+            <label for="1">1</label><br></td>
+
+            <td> <input type="radio" id="4" name="4" value="2">
+                <label for="2">2</label><br></td>
+
+                <td> <input type="radio" id="4" name="4" value="3">
+                    <label for="3">3</label><br></td>
+        </tr>
+
+        <tr>
+            <td>Almakta olduğunuz hizmetin durumu ile ilgili bilgiye erişim yeterli miydi?</td>
+            <td> <input type="radio" id="4" name="5" value="1">
+                <label for="1">1</label><br></td>
+    
+                <td> <input type="radio" id="4" name="5" value="2">
+                    <label for="2">2</label><br></td>
+    
+                    <td> <input type="radio" id="4" name="5" value="3">
+                        <label for="3">3</label><br></td>
+
+        </tr>
+        <tr>
+            <td>Çalışanların konu ile ilgili bilgisi yeterli miydi?</td>
+            <td> <input type="radio" id="6" name="6" value="1">
+                <label for="1">1</label><br></td>
+    
+                <td> <input type="radio" id="6" name="6" value="2">
+                    <label for="2">2</label><br></td>
+    
+                    <td> <input type="radio" id="6" name="6" value="3">
+                        <label for="3">3</label><br></td>
+
+        </tr>
+        <td>Genel olarak hizmet kalitemiz yeterli miydi?</td>
+        <td> <input type="radio" id="7" name="7" value="1">
+            <label for="1">1</label><br></td>
+
+            <td> <input type="radio" id="7" name="7" value="2">
+                <label for="2">2</label><br></td>
+
+                <td> <input type="radio" id="7" name="7" value="3">
+                    <label for="3">3</label><br></td>
+                </tr>
+ </table>
+ <tr>
+    <p> <td>Sunabileceğiniz öneriler var mı?</td></p>
+    <form action="/action_php"></form>
+    <td><textarea name="message" rows="8" cols="25">Görüş ve Önerileriniz...</textarea></td>
+
+</form>
+</tr>
+<p> <input type="submit" value="KAYDET" </p>
+
+<body>
+
+
+</body>
+
+</html>
